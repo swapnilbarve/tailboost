@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+.btn{
+    @apply px-6 py-4 text-white   rounded-lg uppercase bg-[#3d4451] ;
+}
+.btn-primary{
+    @apply bg-[#570df8] text-white  font-bold  ;
+}
+.btn-secondary{
+    @apply bg-[#f000b8] text-white font-bold  ;
+}
+.btn-accent{
+    @apply bg-[#37cdbe];
+}
+.btn-ghost{
+    @apply bg-white text-black font-light hover:bg-gray-300 ;
+}  
+
+
+/* ///////////////////button with state colors///////////////// */
+.btn-info{
+    @apply bg-[#3abff8];
+} 
+.btn-success{
+    @apply bg-[#36d399];
+}
+.btn-warning{
+    @apply bg-[#fbbd23];
+}
+.btn-error{
+    @apply bg-[#f87272];
+} 
+
+/* //////////////////////////button sizes///////////////////////////// */
+.btn-lg{
+    @apply bg-[#3d4451] text-white text-[24px] inline font-bold h-20;
+}
+.btn-md{
+    @apply bg-[#3d4451] text-white text-[18px] inline font-bold h-16;
+}
+.btn-sm{
+    @apply bg-[#3d4451] text-white text-[18px] inline font-bold h-12;
+}
+.btn-xs{
+    @apply  bg-[#3d4451] text-white text-[18px] inline font-bold h-10 ;
+}
+
+/* ///////////////////wide button////////////// */
+.btn-wide{
+    @apply bg-[#3d4451] text-white inline px-32 font-bold ;
+}
+
+
+/* /////////////////button with differenr HTML tags////////// */
+
+
+
+
+
+
+
+@tailwind utilities;
+

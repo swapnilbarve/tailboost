@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+.kbd{
+    @apply px-3 py-3 rounded-lg bg-gray-100 border border-gray-300 ;
+} 
+.kbd-lg{
+    @apply text-lg py-2 px-2 ;
+}
+.kbd-sm{
+    @apply text-sm py-2 px-2;
+}
+.kbd-xs{
+    @apply text-xs py-2 px-2;
+}
+@tailwind utilities;

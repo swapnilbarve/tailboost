@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+.progress-bar{
+    @apply w-[20%] bg-gray-200 rounded-full h-2.5 dark:bg-gray-700;
+}
+.progress{
+    @apply bg-[#303640] h-2.5 rounded-full;
+}
+.progress-primary{
+    @apply bg-[#570df8];
+}
+.progress-secondary{
+    @apply bg-[#f000b8];
+}
+.progress-accent{
+    @apply bg-[#37cdbe];
+}
+.progress-success{
+    @apply bg-[#36d399];
+}
+.progress-info{
+    @apply bg-[#3abff8];
+}
+.progress-warning{
+    @apply bg-[#fbbd23];
+}
+.progress-error{
+    @apply bg-[#f87272];
+}
+
+@tailwind utilities;

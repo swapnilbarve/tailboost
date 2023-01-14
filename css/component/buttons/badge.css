@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+.badge{
+    @apply bg-[#3d4451] text-white px-3 rounded-full ;
+}
+.badge-primary{
+    @apply bg-[#570df8];
+}
+.badge-secondary{
+    @apply bg-[#f000b8];
+}
+.badge-accent{
+    @apply bg-[#37cdbe];
+}
+.badge-ghost{
+    @apply bg-[transparent] text-black ;
+}
+.badge-outline{
+    @apply  text-black bg-white border border-black;
+}
+.badge-outline-primary{
+    @apply bg-white text-[#570df8] border border-[#570df8] ;
+}
+.badge-outline-secondary{
+    @apply  bg-white text-[#f000b8] border border-[#f000b8] ;
+}
+.badge-outline-accent{
+    @apply bg-white text-[#37cdbe] border border-[#37cdbe] ;
+}
+
+/* badge sizes */
+.badge-lg{
+    @apply text-lg;
+}
+
+.badge-sm{
+    @apply text-sm;
+}
+.badge-xs{
+    @apply text-xs;
+}
+
+
+.badge-info{
+    @apply bg-[#3abff8] text-black space-x-3 ;
+}
+.badge-success{
+    @apply bg-[#36d399] text-black  space-x-3 ;
+}
+.badge-warning{
+    @apply bg-[#fbbd23] text-black space-x-3 ;
+}
+.badge-error{
+    @apply bg-[#f87272] text-black space-x-3 ;
+}
+@tailwind utilities;

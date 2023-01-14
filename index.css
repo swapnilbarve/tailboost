@@ -1,0 +1,11 @@
+@import "/css/component/buttons/button.css";
+@import "/css/component/buttons/modal.css"; 
+@import "/css/component/buttons/alert.css" ;
+ @import "/css/component/buttons/avtar.css";  /* css not working maybe file not link properly */
+@import "/css/component/buttons/badge.css";
+@import "/css/component/buttons/card.css";
+@import "/css/component/buttons/collapse.css";
+@import "/css/component/buttons/kbd.css";
+@import "/css/component/buttons/progress.css";
+@import "/css/component/buttons/radial-progress.css";
+@import "/css/component/buttons/stat.css";

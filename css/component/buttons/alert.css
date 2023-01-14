@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+.alert{
+    @apply bg-[#f2f2f2] w-[40%] py-4 pl-4 shadow-lg rounded-xl ;
+}
+.alert-info-color{
+    @apply bg-[#3abff8];
+}
+.alert-success-color{
+    @apply bg-[#36d399];
+}
+.alert-warning-color{
+    @apply bg-[#fbbd23];
+}
+.alert-error-color{
+    @apply bg-[#f87272];
+}
+.alert-button{
+    @apply flex justify-between;
+}
+.alert-title-button{
+    @apply flex justify-between;
+}
+@tailwind utilities;
